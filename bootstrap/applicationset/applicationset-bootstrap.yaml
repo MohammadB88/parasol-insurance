@@ -67,9 +67,9 @@ spec:
     spec:
       project: default
       source:
-        repoURL: "{{repoURL}}"
+        repoURL: "https://github.com/MohammadB88/parasol-insurance.git"
         targetRevision: "{{targetRevision}}"
-        path: "{{path}}"
+        path: "bootstrap/applicationset"
       destination:
         server: "https://kubernetes.default.svc"
       syncPolicy:
