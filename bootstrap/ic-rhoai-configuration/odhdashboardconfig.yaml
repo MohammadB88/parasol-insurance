@@ -23,11 +23,11 @@ spec:
     - name: Standard
       resources:
         limits:
-          cpu: '2'
-          memory: 8Gi
+          cpu: '6'
+          memory: 24Gi
         requests:
-          cpu: '1'
-          memory: 6Gi
+          cpu: '3'
+          memory: 18Gi
   templateOrder: []
 
 
